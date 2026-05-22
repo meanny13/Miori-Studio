@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>miori studio - Official</title>
+<link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+/* ปรับโทนสีตามใจชอบ: ชมพู ม่วง ฟ้า */
+--bg:#F3E5F5; /* ม่วงอ่อนๆ */
+--main:#B39DDB; /* ม่วงพาสเทล */
+--dark:#7E57C2; /* ม่วงเข้ม */
+--white:#FFFFFF;
+--glow:rgba(179,157,219,0.4);
+--accent-pink:#F48FB1; /* ชมพู */
+--accent-blue:#90CAF9; /* ฟ้า */
+}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Mitr',sans-serif;}
+body{
+background:var(--bg);
+display:flex;
+justify-content:center;
+}
+.container{
+max-width:500px;
+width:100%;
+padding:20px 15px 40px;
+}
+.section{
+background:var(--white);
+border-radius:20px;
+padding:25px 20px;
+margin-bottom:20px;
+box-shadow:0 8px 20px rgba(0,0,0,0.05);
+border:2px solid var(--main);
+}
+h1,h2,h3{color:var(--dark);}
+.center{text-align:center;}
+.logo{
+width:150px;height:150px;
+border-radius:50%;
+overflow:hidden;
+margin:0 auto 20px;
+box-shadow:0 6px 20px var(--glow);
+}
+.logo img{width:100%;height:100%;object-fit:cover;}
+.badges{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:10px;
+margin-bottom:20px;
+}
+.badge{
+background:#fff;
+padding:8px 16px;
+border-radius:25px;
+box-shadow:0 4px 10px var(--glow);
+font-size:13px;
+color:var(--dark);
+}
+.btn{
+display:block;
+text-align:center;
+padding:14px;
+border-radius:25px;
+text-decoration:none;
+margin-top:15px;
+font-weight:500;
+}
+.btn-outline{
+background:#fff;
+border:2px dashed var(--main);
+color:var(--dark);
+}
+.btn-main{
+background:var(--main);
+color:#fff;
+}
+.step{
+display:flex;
+align-items:center;
+gap:12px;
+margin-bottom:12px;
+}
+.step-num{
+background:var(--main);
+color:#fff;
+width:26px;height:26px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:13px;
+}
+.price-row{
+display:flex;
+justify-content:space-between;
+margin-bottom:10px;
+background:#fffcfd;
+padding:10px 15px;
+border-radius:15px;
+}
+.price-tag{
+background:var(--main);
+color:#fff;
+padding:3px 12px;
+border-radius:20px;
+font-size:14px;
+}
+.footer{
+text-align:center;
+margin-top:30px;
+}
+.socials{
+display:flex;
+gap:8px;
+justify-content:center;
+margin-top:15px;
+}
+.socials a{
+flex:1;
+max-width:100px;
+text-align:center;
+padding:8px;
+border-radius:25px;
+background:#fff;
+text-decoration:none;
+color:var(--dark);
+font-size:13px;
+border:1px solid #ffeef5;
+}
+.small{font-size:12px;opacity:.7;margin-top:10px;}
+</style>
+</head>
+<body>
+<div class="container">
+<!-- ================================================= -->
+<!-- =============== EDIT AREA START ================ -->
+<!-- แก้ได้เฉพาะตรงนี้เท่านั้น -->
+<!-- ================================================= -->
+<!-- ====== HEADER ====== -->
+<div class="section center" style="border:none;box-shadow:none;background:transparent;">
+<div class="logo">
+<img src="logo.jpg" alt="miori studio logo">
+<!-- EDIT: เปลี่ยนไฟล์โลโก้ -->
+</div>
+<h1>miori studio</h1>
+<p style="color:var(--dark);opacity:.8;margin:10px 0 20px;">
+ร้านโมรับทำป้ายเริ่มต้น 59.- รับทำลายน้ำเริ่มต้น 29.- ✨
+</p>
+<div class="badges">
+<div class="badge" style="border: 1px solid var(--accent-pink);">🎨 รับทำป้าย</div>
+<div class="badge" style="border: 1px solid var(--accent-blue);">💧 ลายน้ำ</div>
+<div class="badge" style="border: 1px solid var(--main);">💫 โทนพาสเทล</div>
+<!-- EDIT: เพิ่ม/ลดหมวดได้ -->
+</div>
+<a href="https://drive.google.com/drive/folders/1wVEoPH3lRjf0TdAi-NZPddQ5QYRO0_DD" target="_blank" class="btn btn-outline">
+ดูตัวอย่างงาน คลิ๊ก 📂
+</a>
+</div>
+<!-- ====== ขั้นตอน ====== -->
+<div class="section">
+<h2>📝 ขั้นตอนสั่งงาน & เงื่อนไข</h2>
+<p style="font-size: 13px; color: var(--dark); margin-bottom: 15px; line-height: 1.6;">
+⏱️ ปกติรองาน 4-8 ชั่วโมง (แล้วแต่คิววันนั้นๆ)<br>
+⚡ งานเร่ง *2 ของราคางานนั้นๆ
+</p>
+<div class="step"><div class="step-num">1</div><div>ดูตัวอย่างงาน บล็อก และตูนที่ลิงก์ด้านล่างก่อน</div></div>
+<div class="step"><div class="step-num">2</div><div>สนใจป้าย/ตูน/โทนสีไหน ส่งพาเลทสีและบรีฟรายละเอียดให้ครบถ้วน</div></div>
+<div class="step"><div class="step-num">3</div><div>ร้านทำตามบรีฟและข้อความที่พิมพ์มา (เช็คให้ดีก่อนส่งเสมอ)</div></div>
+<div class="step"><div class="step-num">4</div><div>โอนเงินหลังจากบรีฟเสร็จ (โอน = ลงคิวเริ่มงาน) *ผ่อน/มัดจำสอบถามก่อนได้</div></div>
+<div class="step"><div class="step-num">5</div><div>รอร้านส่งเช็คงานภายในเวลาที่กำหนด</div></div>
+
+<a href="https://drive.google.com/drive/folders/1DrbeXs69UWEV-7M1MyYU0feF4Ss5QKyD" target="_blank" class="btn btn-main" style="background: var(--accent-pink); margin-bottom: 5px;">เลือกบล็อค คลิ๊ก 📌</a>
+<a href="https://drive.google.com/drive/folders/1w4i7tAcvXdWSPWB0gS5XiRjlO_4qGyAb" target="_blank" class="btn btn-main" style="background: var(--accent-blue); margin-bottom: 5px;">เลือกตูน คลิ๊ก 🧸</a>
+<a href="https://drive.google.com/drive/folders/1nIJcg_vhLkPfRDJAE8nySf55U2UMe2yO" target="_blank" class="btn btn-main">เลือกของตกแต่ง คลิ๊ก 🎀</a>
+</div>
+<!-- ====== ราคา ====== -->
+<div class="section">
+<h2>💰 ราคางาน</h2>
+<div class="price-row"><span>ป้ายแนวกระดาษ / แนวเฮด</span><span class="price-tag">59฿</span></div>
+<div class="price-row"><span>ป้ายแนวความฝันชั่วนิรัน</span><span class="price-tag">69฿</span></div>
+<div class="price-row"><span>ป้ายแนวหมอกแห่งความฝัน</span><span class="price-tag">79฿</span></div>
+<div class="price-row"><span>ป้ายเรทต่างๆ เริ่มต้น</span><span class="price-tag">79฿</span></div>
+<div class="price-row"><span>ป้ายแนวแฟรี่เทล เริ่มต้น</span><span class="price-tag">89฿</span></div>
+<div class="price-row"><span>ป้ายแนวเมฆปุ๊กปิ๊ก v.2</span><span class="price-tag">สอบถามได้เลยจ้า</span></div>
+<a href="https://www.facebook.com/profile.php?id=61586035258954" target="_blank" class="btn btn-main">เช็คราคาเพิ่มเติม / สั่งซื้อ</a>
+</div>
+<!-- ====== ติดต่อ ====== -->
+<div class="footer">
+<a href="https://www.facebook.com/profile.php?id=61586035258954" target="_blank" class="btn btn-main" style="background: #1877F2;">ติดต่อสอบถามคลิก 🎀</a>
+<div class="socials">
+<a href="https://www.facebook.com/profile.php?id=61586035258954" target="_blank">Facebook</a>
+<a href="#">Instagram</a>
+<a href="#">LINE</a>
+</div>
+<p class="small">
+© 2026 miori studio
+</p>
+</div>
+<!-- ================================================= -->
+<!-- ================= EDIT AREA END ================= -->
+<!-- ================================================= -->
+</div>
+</body>
+</html>
